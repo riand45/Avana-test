@@ -1,0 +1,22 @@
+{
+    "name": "riand/avana-test",
+    "description": "This library for avana test",
+    "type": "library",
+    "authors": [
+        {
+            "name": "riand",
+            "email": "riandpratamaputraa@gmail.com"
+        }
+    ],
+    "require": {
+        "box/spout": "^3.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        },
+        "classmap": [
+          "app/Types"
+        ]
+    }
+}
